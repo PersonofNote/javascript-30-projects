@@ -1,0 +1,32 @@
+.sound {
+	align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: block;
+}
+
+kbd {
+	padding: 2px;
+}
+
+.keys {
+	display: flex;
+	flex:1;
+	min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.key {
+	border: 4px solid black;
+	margin: 0.5rem;
+	height: 50px;
+	width: 50px;
+	border-radius: 6px;
+	background: rgba(0,0,0,0.4);
+	transition: all 0.25s;
+}
+
+.playing {
+	transform: scale(1.5);
+	border-color: yellow;
+}
